@@ -1,0 +1,12 @@
+name: SimpleVault
+version: '${project.version}'
+main: me.zenithatic.simplevault.SimpleVault
+api-version: 1.19
+authors: [ Zenithatic ]
+description: An extremely simple and lightweight plugin to access one's echest from anywhere with one command
+website: https://github.com/Zenithatic/
+commands:
+  vault:
+    description: Open ender chest
+    usage: /<command>
+    aliases: [echest, enderchest]
